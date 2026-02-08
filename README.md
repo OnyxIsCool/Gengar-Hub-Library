@@ -74,7 +74,7 @@ Tab:AddButton({
 local Toggle = Tab:AddToggle({
   Name = "Toggle",
   Description = "This is an Toggle.",
-  Default = false 
+  Default = false,
   Callback = function()
    -- ...
   end
