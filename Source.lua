@@ -112,7 +112,7 @@ local redzlib = {
   Tabs = {},
   ScreenGui = nil,
   Device = UserInputService.TouchEnabled and "Mobile" or "Computer",
-  Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/OnyxIsCool/Gengar-Hub-Library/refs/heads/main/Icons.lua"))()
+  Icons = loadstring(game:HttpGet("https://raw.githubusercontent.com/raelhubfunctions/Rael-hub-libary/refs/heads/main/Icons.lua"))()
 }
 
 local ViewportSize = workspace.CurrentCamera.ViewportSize
@@ -1076,7 +1076,7 @@ function redzlib:MakeWindow(Configs)
   function Window:CloseBtn()
     local Dialog = Window:Dialog({
       Title = "Close",
-      Text = "Are you sure you want to close this script??",
+      Text = "Are you sure you want to unload this interface???",
       Options = {
         {"Confirm", function()
           ScreenGui:Destroy()
@@ -2360,4 +2360,3 @@ end
 shared.redzlib.lib = redzlib
 
 return redzlib
-
